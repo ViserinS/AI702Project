@@ -1,9 +1,3 @@
-## Introduction
-
-This is our CV703 project, Topic: Reasoning Agro-GPT: Bridging Chain-of-Thought Gaps
-
-
-
 ## Installation
 
 #### Install environment
