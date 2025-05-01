@@ -67,7 +67,7 @@ And those files are generated data:
 - Qwen2.5-VL/qwen-vl-finetune/dataset/cassava_disease_dataset_deepseek_R1.json
 - Qwen2.5-VL/qwen-vl-finetune/dataset/cassava_disease_dataset_deepseek_V3.json
 
-This folder has image of the dataset:
+This folder has images of the dataset:
 
 - Qwen2.5-VL/qwen-vl-finetune/dataset/course_project_dataset
 
@@ -77,7 +77,7 @@ This folder has image of the dataset:
 
 we use the code from [Llava-o1](https://github.com/mbzuai-oryx/LlamaV-o1/blob/main/eval/get_result.py)
 
-please set API first and path first, and run:
+please set API and path first, and run:
 
 ```
 python Qwen2.5-VL/qwen-vl-finetune/dataset/get_result.py
@@ -95,7 +95,7 @@ And run the following command to fine-tuning Qwen model:
 sh Qwen2.5-VL/qwen-vl-finetune/scripts/sft_ag_3b.sh
 ```
 
-you should Change the model path to the full path first
+you should change the model path to the full path
 
 Since we set:
 
